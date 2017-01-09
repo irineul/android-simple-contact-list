@@ -36,13 +36,6 @@ public class UserListPresenter {
             new Thread(new Runnable() {
                 public void run() {
                     mView.showProgress();
-
-                    try {
-                        Thread.sleep(5000);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-
                     mUser.getApi()
                             .getUsers()
                             .subscribeOn(Schedulers.newThread())
