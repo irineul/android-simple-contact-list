@@ -1,5 +1,6 @@
-Simple Contact List Android app for OrionHealth
+Simple Contact List
 ==
+Simple android app for OrionHealth
 
 ## Requirements:
 
@@ -30,7 +31,7 @@ Screenshots
 
 ![screenshot](./img/screenshot_3.png "Detail")
 
-![screenshot](./img/screenshot_3.png "Menu")
+![screenshot](./img/screenshot_4.png "Menu")
 
 
 Developer By
