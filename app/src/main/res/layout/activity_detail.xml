@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:id="@+id/transitions_container"
+        android:layout_height="fill_parent">
+
+        <!-- Username -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="10dp">
+
+            <com.orionhealth.contacts.CustomTextView
+                android:id="@+id/tvUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                custom:fontAssetName="RobotoCondensed-Regular"
+                android:textSize="24sp"
+                android:textColor="@color/color_black"
+                android:layout_marginTop="10dp" />
+
+            <com.orionhealth.contacts.CustomTextView
+                android:id="@+id/tvUsernameLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                custom:fontAssetName="RobotoCondensed-Regular"
+                android:text="@string/username"
+                android:textSize="16sp"
+                android:textColor="@color/color_gray" />
+
+        </LinearLayout>
+
+        <!-- Phone -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="10dp">
+
+            <com.orionhealth.contacts.CustomTextView
+                android:id="@+id/tvPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                custom:fontAssetName="RobotoCondensed-Regular"
+                android:textSize="24sp"
+                android:textColor="@color/color_black"
+                android:layout_marginTop="10dp" />
+
+            <com.orionhealth.contacts.CustomTextView
+                android:id="@+id/tvPhoneLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phone"
+                custom:fontAssetName="RobotoCondensed-Regular"
+                android:textSize="16sp"
+                android:textColor="@color/color_gray" />
+
+        </LinearLayout>
+
+        <!-- Address -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="10dp">
+
+            <com.orionhealth.contacts.CustomTextView
+                android:id="@+id/tvAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                custom:fontAssetName="RobotoCondensed-Regular"
+                android:textSize="24sp"
+                android:textColor="@color/color_black"
+                android:layout_marginTop="10dp" />
+
+            <com.orionhealth.contacts.CustomTextView
+                android:id="@+id/tvAddressLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/address"
+                custom:fontAssetName="RobotoCondensed-Regular"
+                android:textSize="16sp"
+                android:textColor="@color/color_gray" />
+
+        </LinearLayout>
+
+        <!-- Website -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="10dp">
+
+            <com.orionhealth.contacts.CustomTextView
+                android:id="@+id/tvWebsite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                custom:fontAssetName="RobotoCondensed-Regular"
+                android:textSize="24sp"
+                android:textColor="@color/color_black"
+                android:layout_marginTop="10dp" />
+
+            <com.orionhealth.contacts.CustomTextView
+                android:id="@+id/tvWebsiteLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                custom:fontAssetName="RobotoCondensed-Regular"
+                android:text="@string/website"
+                android:textSize="16sp"
+                android:textColor="@color/color_gray"
+            />
+
+        </LinearLayout>
+
+
+        <!-- Email -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="10dp">
+
+            <com.orionhealth.contacts.CustomTextView
+                android:id="@+id/tvEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                custom:fontAssetName="RobotoCondensed-Regular"
+                android:textSize="24sp"
+                android:textColor="@color/color_black"
+                android:layout_marginTop="10dp" />
+
+            <com.orionhealth.contacts.CustomTextView
+                android:id="@+id/tvEmailLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                custom:fontAssetName="RobotoCondensed-Regular"
+                android:text="@string/email"
+                android:textSize="16sp"
+                android:textColor="@color/color_gray"
+                />
+
+        </LinearLayout>
+
+        <!--Separator Line-->
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider"/>
+
+
+        <!-- Company Details: Name -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="10dp">
+
+            <com.orionhealth.contacts.CustomTextView
+                android:id="@+id/tvCompanyName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="COMPANYNAME"
+                custom:fontAssetName="RobotoCondensed-Regular"
+                android:textSize="24sp"
+                android:textColor="@color/color_black"
+                android:layout_marginTop="10dp" />
+
+            <com.orionhealth.contacts.CustomTextView
+                android:id="@+id/tvCompanyNameLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                custom:fontAssetName="RobotoCondensed-Regular"
+                android:text="@string/company"
+                android:textSize="16sp"
+                android:textColor="@color/color_gray"
+                />
+
+        </LinearLayout>
+
+
+        <!-- Company Details: CatchPhrase -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="10dp">
+
+            <com.orionhealth.contacts.CustomTextView
+                android:id="@+id/tvCompanyCatchPhrase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                custom:fontAssetName="RobotoCondensed-Regular"
+                android:textSize="24sp"
+                android:textColor="@color/color_black"
+                android:layout_marginTop="10dp" />
+
+            <com.orionhealth.contacts.CustomTextView
+                android:id="@+id/tvCompanyCatchPhraseLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/catch_phrase"
+                custom:fontAssetName="RobotoCondensed-Regular"
+                android:textSize="16sp"
+                android:textColor="@color/color_gray"
+                />
+
+        </LinearLayout>
+
+
+        <!-- Company Details: BS -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="10dp">
+
+            <com.orionhealth.contacts.CustomTextView
+                android:id="@+id/tvCompanyBs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                custom:fontAssetName="RobotoCondensed-Regular"
+                android:textSize="24sp"
+                android:textColor="@color/color_black"
+                android:layout_marginTop="10dp" />
+
+            <com.orionhealth.contacts.CustomTextView
+                android:id="@+id/tvCompanyBsLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                custom:fontAssetName="RobotoCondensed-Regular"
+                android:text="@string/bs"
+                android:textSize="16sp"
+                android:textColor="@color/color_gray"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Contacts</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Action Titles-->
+    <string name="action_order_ascending">Sort By A-Z</string>
+    <string name="action_order_descending">Sort By Z-A</string>
+    <string name="action_order">Order</string>
+
+    <string name="loading_contacts">Loading Contacts...</string>
+
+    <string name="username">USERNAME</string>
+    <string name="phone">PHONE</string>
+    <string name="address">ADDRESS</string>
+    <string name="website">WEBSITE</string>
+    <string name="email">EMAIL</string>
+    <string name="company">COMPANY</string>
+    <string name="catch_phrase">CATCH PHRASE</string>
+    <string name="bs">BS</string>
+
+    <string name="email_subject">Irineu is awesome!</string>
+    <string name="email_body">He definitely wil join our team!</string>
+
+
+</resources>

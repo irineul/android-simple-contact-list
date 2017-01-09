@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_no_internet_connection">Please, check your internet connection and try again.</string>
+    <string name="error_no_users">No users no present :(</string>
+    <string name="error_user_is_null">Ops! The selected user is invalid.</string>
+    <string name="error_cant_fetch_api">Failed to retrieve users.</string>
+    <string name="error_website_invalid">This website is invalid!</string>
+    <string name="error_email_invalid">This email is invalid!</string>
+</resources>

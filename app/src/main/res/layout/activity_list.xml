@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".ListActivity"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/llProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            android:layout_width="wrap_content"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_gravity="center"
+
+            android:minHeight="80dp"
+            android:maxHeight="80dp"
+            android:maxWidth="80dp"
+            android:minWidth="80dp"
+
+            android:layout_height="wrap_content" />
+
+        <com.orionhealth.contacts.CustomTextView
+            android:id="@+id/tvMessageProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:fontAssetName="RobotoCondensed-Regular"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/loading_contacts"
+            android:textSize="28sp"
+            android:textColor="@color/color_gray"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:drawSelectorOnTop="true"
+        android:id="@+id/listViewUsers"></ListView>
+
+</RelativeLayout>
