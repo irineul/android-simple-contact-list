@@ -1,7 +1,9 @@
 package com.orionhealth.contacts;
 
 import android.content.Intent;
+import android.graphics.PorterDuff;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.LinearLayout;
@@ -54,6 +56,8 @@ public class UserListActivity extends BaseActivity implements UserListView {
 
 
         mProgressBar.setIndeterminate(true);
+        mProgressBar.getIndeterminateDrawable()
+                .setColorFilter(getResources().getColor(R.color.color_blue), PorterDuff.Mode.SRC_IN);
     }
 
 
