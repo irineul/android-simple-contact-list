@@ -1,6 +1,6 @@
 Simple Contact List
 ==
-Simple android app for OrionHealth
+Simple android app
 
 ## Requirements:
 
